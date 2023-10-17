@@ -1,11 +1,27 @@
+/* Estrutura do site */
+
+* {
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+header {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+/* Animação menu superior */
+
 ul {
-    list-style-type: none; /*Remove a bolinha*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
+    text-align: center;
 }
-
-li {float:left;}
 
 li a {
     display: block;
@@ -17,4 +33,4 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
-}
+} 
