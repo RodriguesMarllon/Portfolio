@@ -1,36 +1,65 @@
-/* Estrutura do site */
-
-* {
-    box-sizing: border-box;
-    background-color: cadetblue;
+/* Menu Superior*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #282A36;
+    color: white;
 }
 
 header {
-    border: 1px solid white;
     padding: 15px;
 }
 
-/* Animação menu superior */
-
-ul {
+.container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    text-align: center;
 }
 
-li a {
+.menu {
+    justify-content: space-around; /* ou justify-content: space-between; dependendo do espaçamento que você deseja */
+    padding: 10px 0; /* Adicione espaçamento acima e abaixo dos itens do menu */
+    background-color: #44475A;
+    border-radius: 1rem;
+}
+
+.menu h1 {
+    font-family: cursive;
+    font-size: large;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+.menu ul {
+    font-family: sans-serif;
+    list-style-type: none;
+    padding: 0 30px;
+    display: flex;
+    margin-left: auto;
+}
+
+.menu ul li {
+    margin: 0 10px; /* Espaçamento horizontal entre os itens do menu */
+}
+
+.menu ul li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
     text-decoration: none;
+    padding: 8px 16px;
+    color: white;
 }
 
-li a:hover {
-    background-color: #555;
+.menu ul li a:hover {
+    background-color: #6272A4;
     color: white;
-} 
+}
+
+.content {
+    flex: 1;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #44475A;
+}
