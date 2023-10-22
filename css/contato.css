@@ -1,0 +1,87 @@
+/* ########################### Contato ###########################*/
+
+main {
+    flex: 1;
+}
+
+section .container h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #44475A;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #6272A4;
+    font-weight: 700px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover {
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #61606086;
+}
+
+/* Rodapé */
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #44475A;
+    color: #fff;
+}
+
+footer .redesSociais {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+footer .redesSociais a{
+    padding: 0 20px;
+    height: 100px;
+}
+
+footer .redesSociais a img {
+    vertical-align: middle;
+}
