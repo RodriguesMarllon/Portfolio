@@ -1,38 +1,45 @@
 /* ########################### Index ###########################*/
 
-
+/* define o espaçamento da main */
 main {
     padding: 30px;
 }
 
+/* define o espaçamento */
 main section .content {
     padding: 40px 4%;
 }
 
+/* faz com que a main tenha display flex */
 main section .flex {
     justify-content: center;
     gap: 90px;
     color: #fff;
 }
 
+/* define o tamanho do titulo */
 main .content h1 {
     font-size: 50px;
     padding: 10px 0;
 }
 
+/* define o estilo das palavras que estão destacadas */
 main .content strong {
     color: #8BE9FD;
     font-weight: bold;
 }
 
+/* define o tamanho do paragrafo */
 main .content p {
     font-size: 20px;
 }
 
+/* define a borda da imagem */
 main .content .imagem {
     border-radius: 3px;
 }
 
+/* define o tamanho da imagem */
 main .imagem img {
     width: 400px;
     height: 400px;

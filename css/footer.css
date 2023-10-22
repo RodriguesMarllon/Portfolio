@@ -1,3 +1,4 @@
+/* define o estilo do footer */
 footer {
     display: flex;
     bottom: 0;
@@ -6,17 +7,20 @@ footer {
     color: #fff;
 }
 
+/* define o estilo dos icones de redes sociais no footer */
 footer .redesSociais {
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
 }
 
+/* define o tamanho dos icones de redes sociais no footer */
 footer .redesSociais a{
     padding: 0 20px;
     height: 100px;
 }
 
+/* alinha as imagens verticalmente */
 footer .redesSociais a img {
     vertical-align: middle;
 }
